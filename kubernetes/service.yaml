@@ -1,11 +1,11 @@
 ---
-kind: Service
+kind: ingress
 apiVersion: v1
 metadata:
   name: spring-boot-hello
   namespace: flux
 spec:
-  type: LoadBalancer
+  type: ingress
   selector:
     app: spring-boot-hello
   ports:
