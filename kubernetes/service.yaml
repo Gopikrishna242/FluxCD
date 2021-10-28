@@ -9,7 +9,8 @@ spec:
   selector:
     app: spring-boot-hello
   ports:
-    - name: http
+    - host : welcome.zz8jpq6ohou4p5plbkic.apps.klusternetes.com
+      name: http
       protocol: TCP
       port: 8080
       targetPort: 8080
